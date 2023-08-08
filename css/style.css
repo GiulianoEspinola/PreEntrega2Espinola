@@ -34,7 +34,15 @@ h2{
 .caramelos{
     width: 200px;
     height:200px ;
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit
+        minmax(
+            150px
+            1fr
+        )
+    )
+    gap 16px
 }
 ul li{
     list-style:none
@@ -42,8 +50,8 @@ ul li{
 
 }
 .footer{
-    position: absolute;
-    bottom: 0px;
+    
     width: 100%;
 
 }
+
