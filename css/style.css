@@ -1,23 +1,16 @@
-@font-face {
-    font-family: "oswald bold" ;
-    src: url(../css/font/Oswald-Bold.ttf);
-}
-@font-face {
-    font-family: "oswald medium" ;
-    src: url(../css/font/Oswald-Medium.ttf);
-}
-@font-face {
-    font-family:"oswald light" ;
-    src: url(../css/font/Oswald-Light.ttf);
-}
-
 h1 {
     text-align:center;
     font-size:larger;
 }
 h2{
     text-align:center;
+    margin-right: 5%;
+    margin-left: 5%;
  
+}
+.parrafo{
+    margin-right: 3%;
+    margin-left:3% ;
 }
 
 .box-1 {
@@ -28,6 +21,7 @@ h2{
     background-color: #4682b4;
     display: flex;
     align-items: baseline;
+    font-size: 20px;
        
 }
 
@@ -49,9 +43,9 @@ ul li{
     
 
 }
-.footer{
-    
+.footer{   
     width: 100%;
-
+    position: absolute;
+    padding: 10%;
 }
 
