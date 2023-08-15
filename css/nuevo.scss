@@ -32,5 +32,9 @@ $fuentes:(
     &__texto--parrafo{
         font-size: 20px;
         font-weight: 150;
-        color: map-get($color , azul )}
+        color: map-get($color , azul );
+        font-family:map-get($fuentes , normal )
+    }
+
 }
+
