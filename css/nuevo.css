@@ -1,0 +1,21 @@
+.titulo {
+  text-align: center;
+  font-family: helvetica;
+}
+
+.servicios {
+  padding: 20px;
+  background-color: dodgerblue;
+}
+
+.first-section__texto {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 150px;
+  font-family: helvetica;
+}
+.first-section__texto--parrafo {
+  font-size: 20px;
+  font-weight: 150;
+  color: darkblue;
+}/*# sourceMappingURL=nuevo.css.map */

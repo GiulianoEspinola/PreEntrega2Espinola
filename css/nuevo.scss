@@ -1,0 +1,36 @@
+$color:(
+"azul":darkblue,
+"black":black,
+
+);
+$fuentes:(
+    "normal":verdana,
+    "titulo":helvetica,
+
+);
+    
+
+.titulo{
+    text-align: center;   
+    font-family: map-get($fuentes , titulo )   
+}
+
+    
+.servicios{
+    padding: 20px;
+    background-color: dodgerblue;
+}
+.first-section{
+    &__texto{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 150px;
+    font-family: map-get($fuentes , titulo );
+    
+    
+    }
+    &__texto--parrafo{
+        font-size: 20px;
+        font-weight: 150;
+        color: map-get($color , azul )}
+}
