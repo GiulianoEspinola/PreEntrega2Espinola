@@ -16,10 +16,11 @@ body {
 
 .servicios {
   padding: 20px;
+  display: grid;
 }
 
 .first-section__texto {
-  padding: 10px;
+  padding: 20px;
   font-size: 30px;
   font-weight: 150px;
   font-family: helvetica;
@@ -28,4 +29,20 @@ body {
   font-size: 20px;
   font-weight: 150;
   font-family: verdana;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.violet {
+  color: violet;
 }/*# sourceMappingURL=nuevo.css.map */

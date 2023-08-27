@@ -33,11 +33,12 @@ body{
     
 .servicios{
     padding: 20px;
+    display: grid;
     
 }
 .first-section{
-    &__texto{
-    padding: 10px;
+    &__texto{    
+    padding: 20px;
     font-size: 30px;
     font-weight: 150px;
     font-family: map-get($fuentes , titulo );
@@ -50,5 +51,10 @@ body{
         font-family:map-get($fuentes , normal )
     }
 
+}
+@each $color in red, blue, green, violet{
+    .#{$color}{
+        color:#{$color}
+    }
 }
 
