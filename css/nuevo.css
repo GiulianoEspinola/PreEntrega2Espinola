@@ -3,11 +3,13 @@ body {
 }
 
 .titulo {
-  text-align: center;
-  font-family: helvetica;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .imagen {
+  margin-left: 20px;
   width: 300px;
   height: 300px;
   border: 5px solid;
@@ -16,17 +18,17 @@ body {
 
 .servicios {
   padding: 20px;
-  display: grid;
 }
 
 .first-section__texto {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   font-weight: 150px;
   font-family: helvetica;
 }
 .first-section__texto--parrafo {
-  font-size: 20px;
+  list-style: none;
+  font-size: 15px;
   font-weight: 150;
   font-family: verdana;
 }
@@ -45,4 +47,9 @@ body {
 
 .violet {
   color: violet;
+}
+
+.boton {
+  margin: 5px;
+  color: blueviolet;
 }/*# sourceMappingURL=nuevo.css.map */

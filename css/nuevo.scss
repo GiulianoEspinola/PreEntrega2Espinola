@@ -11,6 +11,12 @@ $fuentes:(
 $border:true;
 $size:300px ;
 
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+}
+
     
 body{
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -18,10 +24,12 @@ body{
 }
 
 .titulo{
-    text-align: center;   
-    font-family: map-get($fuentes , titulo )   
+@include flex-row-center
+   
 }
+
 .imagen{
+ margin-left: 20px;   
  width: $size;
  height: $size;
  border: 5px solid;
@@ -32,21 +40,19 @@ body{
 }
     
 .servicios{
-    padding: 20px;
-    display: grid;
-    
+padding: 20px;
+   
 }
 .first-section{
-    &__texto{    
-    padding: 20px;
+    &__texto{          
+    padding: 10px;
     font-size: 30px;
     font-weight: 150px;
     font-family: map-get($fuentes , titulo );
-    
-    
     }
     &__texto--parrafo{
-        font-size: 20px;
+        list-style: none;
+        font-size: 15px;
         font-weight: 150;
         font-family:map-get($fuentes , normal )
     }
@@ -56,5 +62,9 @@ body{
     .#{$color}{
         color:#{$color}
     }
+}
+.boton{
+    margin: 5px;
+    color:blueviolet
 }
 
