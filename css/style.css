@@ -1,14 +1,5 @@
-@font-face {
-    font-family: "oswald bold" ;
-    src: url(../css/font/Oswald-Bold.ttf);
-}
-@font-face {
-    font-family: "oswald medium" ;
-    src: url(../css/font/Oswald-Medium.ttf);
-}
-@font-face {
-    font-family:"oswald light" ;
-    src: url(../css/font/Oswald-Light.ttf);
+body{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 h1 {
@@ -17,33 +8,62 @@ h1 {
 }
 h2{
     text-align:center;
+    margin-right: 5%;
+    margin-left: 5%;
  
+}
+.parrafo{
+    margin-right: 3%;
+    margin-left:3% ;
+    font-size: 20px;
+}
+
+.title-productos{
+    padding:20px ;
 }
 
 .box-1 {
     width: 400px;
     height: 300px;  
 }
-.first-section-productos{
-    background-color: #4682b4;
-    display: flex;
-    align-items: baseline;
-       
+
+ul li{
+    list-style: none;
 }
 
 .caramelos{
     width: 200px;
     height:200px ;
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit
+        minmax(
+            150px
+            1fr
+        )
+    )
+    gap 16px
 }
-ul li{
-    list-style:none
-    
 
+.form{
+    background-color: #fff;
+    margin: auto;
+    width:90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
 }
-.footer{
-    position: absolute;
-    bottom: 0px;
+.form_container{
     width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
 
 }
+.form_tittle{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4rem;
+}
+
+

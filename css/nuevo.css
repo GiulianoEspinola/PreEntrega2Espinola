@@ -1,0 +1,55 @@
+body {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imagen {
+  margin-left: 20px;
+  width: 300px;
+  height: 300px;
+  border: 5px solid;
+  border-radius: 30px;
+}
+
+.servicios {
+  padding: 20px;
+}
+
+.first-section__texto {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 150px;
+  font-family: helvetica;
+}
+.first-section__texto--parrafo {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 150;
+  font-family: verdana;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.violet {
+  color: violet;
+}
+
+.boton {
+  margin: 5px;
+  color: blueviolet;
+}/*# sourceMappingURL=nuevo.css.map */
